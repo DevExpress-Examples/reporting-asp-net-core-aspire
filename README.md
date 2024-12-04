@@ -39,7 +39,6 @@ Reference the following NuGet packages in your Reporting application:
 2. Open your reporting project. Add the following method calls to `Program.cs`:
 
     # [Program.cs](#tab/tabid-csharp)
-
     ```csharp
     var builder = WebApplication.CreateBuilder(args);
     builder.Services.AddDevExpressControls();
@@ -53,8 +52,7 @@ Reference the following NuGet packages in your Reporting application:
     // Share trace and metrics data with the .NET Aspire Dashboard for the DevExpress Reports back end services
     builder.AddAspNetCoreReporting();
     ```
-
-    ***
+   
 
 3. Navigate to the `AppHost` project. Add the following project reference code to `Program.cs`:
 
@@ -67,9 +65,7 @@ Reference the following NuGet packages in your Reporting application:
       .WithExternalHttpEndpoints();
 
     builder.Build().Run();
-    ```
-
-***
+    ```   
 
 4. Build and run the _*.AppHost_ solution to view output in the .NET Aspire dashboard.
 
