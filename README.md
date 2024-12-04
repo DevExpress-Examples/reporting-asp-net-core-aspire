@@ -38,7 +38,6 @@ Reference the following NuGet packages in your Reporting application:
 
 2. Open your reporting project. Add the following method calls to `Program.cs`:
 
-    # [Program.cs](#tab/tabid-csharp)
     ```csharp
     var builder = WebApplication.CreateBuilder(args);
     builder.Services.AddDevExpressControls();
@@ -55,8 +54,6 @@ Reference the following NuGet packages in your Reporting application:
    
 
 3. Navigate to the `AppHost` project. Add the following project reference code to `Program.cs`:
-
-    # [Program.cs](#tab/tabid-csharp)
 
     ```csharp
     var builder = DistributedApplication.CreateBuilder(args);
