@@ -1,12 +1,12 @@
 var builder = DistributedApplication.CreateBuilder(args);
 
-var apiService = builder.AddProject<Projects.AspireStarterApp_ApiService>("apiservice");
+var apiService = builder.AddProject("AspireStarterApp.ApiService", "apiservice");
 
-builder.AddProject<Projects.AspireStarterApp_Web>("webfrontend")
+builder.AddProject("AspireStarterApp.Web", "webfrontend")
     .WithExternalHttpEndpoints()
     .WithReference(apiService);
 
-builder.AddProject<Projects.DevExpressReportingApp>("webreporting")
+builder.AddProject("DevExpressReportingApp", "webreporting")
     .WithExternalHttpEndpoints();
 
 builder.Build().Run();
