@@ -14,9 +14,9 @@ This example shows a .NET Aspire Dashboard integrated into an ASP.NET Core Docum
 
 To work with .NET Aspire, you need the following:
 
-* [.NET 8.0](https://dotnet.microsoft.com/download/dotnet/8.0), [.NET 9.0](https://dotnet.microsoft.com/download/dotnet/9.0), or [.NET 10.0](https://dotnet.microsoft.com/download/dotnet/10.0)
+* [.NET 10.0](https://dotnet.microsoft.com/download/dotnet/10.0)
 * [.NET Aspire SDK](https://learn.microsoft.com/en-us/dotnet/aspire/fundamentals/dotnet-aspire-sdk)
-* Visual Studio 2022 version 17.9+
+* Visual Studio 2026
 * .NET Aspire Dashboard application. Refer to the following help topic for information on how to create the application: [Quick Start: Build your first .NET Aspire solution](https://learn.microsoft.com/en-us/dotnet/aspire/get-started/build-your-first-aspire-app?pivots=visual-studio)
 * DevExpress Reports-powered application. Refer to the following section for tutorials on how to create an ASP.NET Core Report Viewer: [Use Reporting Components](https://docs.devexpress.com/XtraReports/119717/web-reporting/aspnet-core-reporting#use-reporting-components)
 
